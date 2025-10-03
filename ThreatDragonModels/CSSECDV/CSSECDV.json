@@ -866,7 +866,7 @@
             },
             "vertices": [
               {
-                "x": 350,
+                "x": 390,
                 "y": 280
               }
             ]
@@ -917,7 +917,7 @@
             },
             "vertices": [
               {
-                "x": 500,
+                "x": 490,
                 "y": 290
               }
             ]
@@ -1123,6 +1123,102 @@
               {
                 "x": 600,
                 "y": 480
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust\nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic Trust\nBoundary"
+            ],
+            "id": "a11356da-573b-4dac-ae43-83b1fd7b4398",
+            "source": {
+              "x": 360,
+              "y": 20
+            },
+            "target": {
+              "x": 360,
+              "y": 650
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust\nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic Trust\nBoundary"
+            ],
+            "id": "39c603a2-7787-4686-86d5-939ebc9acf3d",
+            "source": {
+              "x": 250,
+              "y": 170
+            },
+            "target": {
+              "x": 610,
+              "y": 170
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic Trust \nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic Trust \nBoundary"
+            ],
+            "id": "5c9a06ec-38d6-4d28-b969-e1b3bde98b30",
+            "source": {
+              "x": 700,
+              "y": 20
+            },
+            "target": {
+              "x": 700,
+              "y": 630
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 330
               }
             ]
           }
