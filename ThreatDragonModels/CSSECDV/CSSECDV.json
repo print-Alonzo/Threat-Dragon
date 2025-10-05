@@ -494,13 +494,6 @@
                 "informationDisclosure": 0,
                 "denialOfService": 2
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
