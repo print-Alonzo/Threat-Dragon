@@ -38,7 +38,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Client Side\n(Frontend)"
+                "text": "Customer"
               },
               "body": {
                 "stroke": "#333333",
@@ -134,7 +134,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Client Side\n(Frontend)",
+              "name": "Customer",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -146,6 +146,13 @@
                 "spoofing": 1,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -267,7 +274,7 @@
               "privilegeLevel": "",
               "threats": [],
               "threatFrequency": {
-                "spoofing": 0,
+                "spoofing": 1,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
@@ -397,7 +404,13 @@
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -919,6 +932,6 @@
     ],
     "diagramTop": 5,
     "reviewer": "",
-    "threatTop": 7
+    "threatTop": 21
   }
 }
