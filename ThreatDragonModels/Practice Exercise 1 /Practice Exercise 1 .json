@@ -678,7 +678,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "record new order \ndetails \nand \npayment status",
+              "name": "send new order details \nand \npayment status",
               "description": "This happens only if the transaction response from the Third-Party Payment Service is successful",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -691,7 +691,7 @@
               "threats": []
             },
             "labels": [
-              "record new order \ndetails \nand \npayment status"
+              "send new order details \nand \npayment status"
             ],
             "id": "48ab4202-9649-4802-9a02-83773c8c6296",
             "source": {
@@ -702,7 +702,12 @@
               "cell": "5db206bf-b03a-4646-82bf-1966ae4ad08c",
               "port": "7dfc62f5-5898-4a71-81c4-0f3c03c8fd9c"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 560,
+                "y": 170
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -782,7 +787,7 @@
             },
             "vertices": [
               {
-                "x": 470,
+                "x": 450,
                 "y": 200
               }
             ]
@@ -816,6 +821,57 @@
               {
                 "x": 990,
                 "y": 370
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Success = 1",
+              "description": "This notifies the web application that the order details and payment status that were sent to the database server are successfully recorded",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Success = 1"
+            ],
+            "id": "fb5d8dc2-8a2f-4eda-b757-554c255935ba",
+            "source": {
+              "cell": "5db206bf-b03a-4646-82bf-1966ae4ad08c",
+              "port": "7dfc62f5-5898-4a71-81c4-0f3c03c8fd9c"
+            },
+            "target": {
+              "cell": "b725d8a7-40b0-446f-ab0f-093bd92f5729",
+              "port": "9f80b1f1-1777-4682-be46-1420dfd5c554"
+            },
+            "vertices": [
+              {
+                "x": 690,
+                "y": 170
               }
             ]
           }
