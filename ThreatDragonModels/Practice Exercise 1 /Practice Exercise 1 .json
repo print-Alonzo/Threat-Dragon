@@ -754,6 +754,70 @@
                 "y": 410
               }
             ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "0316c147-b666-4855-aeaf-ebc3bf381fe4",
+            "source": {
+              "x": 510,
+              "y": -90
+            },
+            "target": {
+              "x": 510,
+              "y": 510
+            },
+            "vertices": [
+              {
+                "x": 470,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "c717d04f-41ab-4ffc-9b55-e8e05e25ea88",
+            "source": {
+              "x": 1020,
+              "y": 210
+            },
+            "target": {
+              "x": 1020,
+              "y": 515
+            },
+            "vertices": [
+              {
+                "x": 990,
+                "y": 370
+              }
+            ]
           }
         ]
       },
