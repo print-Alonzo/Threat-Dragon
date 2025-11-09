@@ -146,7 +146,7 @@
           },
           {
             "position": {
-              "x": 440,
+              "x": 540,
               "y": 305
             },
             "size": {
@@ -266,8 +266,8 @@
           },
           {
             "position": {
-              "x": 435,
-              "y": -73.00000000000006
+              "x": 535,
+              "y": -63.00000000000006
             },
             "size": {
               "width": 170,
@@ -390,7 +390,7 @@
           },
           {
             "position": {
-              "x": 900,
+              "x": 1080,
               "y": 315
             },
             "size": {
@@ -551,8 +551,8 @@
             },
             "vertices": [
               {
-                "x": 320,
-                "y": 340
+                "x": 370,
+                "y": 330
               }
             ]
           },
@@ -602,8 +602,8 @@
             },
             "vertices": [
               {
-                "x": 740,
-                "y": 290
+                "x": 890,
+                "y": 300
               }
             ]
           },
@@ -627,8 +627,8 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "sends transaction response\n(success/failure)",
-              "description": "",
+              "name": "sends transaction response",
+              "description": "The response can either be a success or a failure",
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
@@ -640,7 +640,7 @@
               "threats": []
             },
             "labels": [
-              "sends transaction response\n(success/failure)"
+              "sends transaction response"
             ],
             "id": "7972c79c-d23e-4b30-9ef8-e7e8c0763f32",
             "source": {
@@ -653,8 +653,105 @@
             },
             "vertices": [
               {
-                "x": 750,
+                "x": 880,
                 "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "record new order \ndetails \nand \npayment status",
+              "description": "This happens only if the transaction response from the Third-Party Payment Service is successful",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "record new order \ndetails \nand \npayment status"
+            ],
+            "id": "48ab4202-9649-4802-9a02-83773c8c6296",
+            "source": {
+              "cell": "b725d8a7-40b0-446f-ab0f-093bd92f5729",
+              "port": "9f80b1f1-1777-4682-be46-1420dfd5c554"
+            },
+            "target": {
+              "cell": "5db206bf-b03a-4646-82bf-1966ae4ad08c",
+              "port": "7dfc62f5-5898-4a71-81c4-0f3c03c8fd9c"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "send order confirmation\nand status update",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "send order confirmation\nand status update"
+            ],
+            "id": "0acfbd8f-4db6-4814-acd5-209721a7aab1",
+            "source": {
+              "cell": "b725d8a7-40b0-446f-ab0f-093bd92f5729",
+              "port": "3c21df04-3633-4006-a1a1-cfdc2c1d43f2"
+            },
+            "target": {
+              "cell": "a7f81005-912b-4d1b-bd40-7109e7467a41",
+              "port": "21579ef9-e130-44b2-8233-5db6dcda7bb5"
+            },
+            "vertices": [
+              {
+                "x": 370,
+                "y": 410
               }
             ]
           }
