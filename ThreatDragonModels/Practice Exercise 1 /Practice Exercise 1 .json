@@ -38,7 +38,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Customer"
+                "text": " Client"
               },
               "body": {
                 "stroke": "red",
@@ -134,7 +134,7 @@
             "id": "a7f81005-912b-4d1b-bd40-7109e7467a41",
             "data": {
               "type": "tm.Actor",
-              "name": "Customer",
+              "name": " Client",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -549,6 +549,13 @@
                 "denialOfService": 3,
                 "elevationOfPrivilege": 3
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
