@@ -549,13 +549,6 @@
                 "denialOfService": 3,
                 "elevationOfPrivilege": 3
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
